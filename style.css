@@ -1,0 +1,57 @@
+body {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: rgb(213, 157, 197);
+  text-shadow: 2px 2px 4px #4c0345;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+#gif {
+  width: 300px;
+  max-width: 90vw;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+#gif:hover {
+  transform: scale(1.02);
+}
+
+#btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 24px;
+  font-family: "VT323", monospace;
+  color: rgb(200, 186, 199);
+
+  background-color: purple;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+#btn:hover {
+  background-color: darkviolet;
+  transform: scale(1.05);
+}
+
+#btn:active {
+  transform: scale(0.98);
+}
